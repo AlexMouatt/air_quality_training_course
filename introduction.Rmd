@@ -1,0 +1,80 @@
+---
+title: "Air Pollution Analysis Course"
+author: "Alex Mouatt"
+date: "2024-02-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# OpenAir for Air Quality Analysis: Online Training Course
+
+## Course Overview
+- **Duration**: [Insert duration]
+- **Instructor**: [Insert instructor name]
+- **Delivery Format**: Online, self-paced with pre-recorded video lectures and interactive exercises
+- **Platform**: [Specify the online platform or learning management system]
+
+## Learning Objectives
+- Understand the fundamentals of air quality analysis
+- Learn how to use the OpenAir package in R for analyzing air pollution data
+- Develop skills in visualizing and interpreting air quality data
+- Gain proficiency in conducting basic air pollution assessments and trend analysis
+- Aquire reusable code and scripts that can be adapted for the needs of your own research projects
+
+## Course Structure
+1. Introduction to Air Quality Analysis
+    - Overview of air pollution and its impacts
+    - Introduction to key air quality parameters and measurements
+
+2. Introduction to OpenAir
+    - Installing and setting up OpenAir in R
+    - Overview of OpenAir functions and capabilities
+
+3. Data Import and Pre-processing
+    - Importing air quality data into R using OpenAir
+    - Cleaning and formatting data for analysis
+
+4. Exploratory Data Analysis
+    - Visualizing air quality data with OpenAir plots (time series, histograms, etc.)
+    - Calculating summary statistics and identifying patterns
+
+5. Spatial Analysis
+    - Mapping air quality data using OpenAir's mapping functions
+    - Analyzing spatial patterns and trends in air pollution
+
+6. Temporal Analysis
+    - Analyzing temporal trends and seasonality in air quality data
+    - Identifying long-term trends and anomalies
+
+7. Source Apportionment
+    - Introduction to source apportionment techniques
+    - Using OpenAir for source contribution analysis
+
+## Teaching Methodology
+- Pre-recorded video lectures for self-paced learning
+- Interactive coding exercises with provided air quality datasets
+- Discussion forums for questions and peer collaboration
+- Weekly live Q&A sessions with the instructor
+
+## Resources
+- **OpenAir Documentation**: Official documentation and tutorials provided by the OpenAir package
+- **Online Resources**: Additional readings, articles, and case studies related to air quality analysis
+- **R Packages**: Relevant R packages for data manipulation, visualization, and statistical analysis
+
+## Assessment
+- Weekly quizzes to assess understanding of key concepts
+- Coding assignments with provided air quality datasets for hands-on practice
+- Final project: Analyze a real-world air quality dataset using OpenAir and present findings
+
+## Support
+- Dedicated support email for technical issues related to OpenAir or R programming
+- Discussion forums for peer support and collaboration
+- Office hours: Weekly live sessions for additional help and Q&A
+
+## Feedback
+- Surveys at the end of each module for feedback on content and delivery
+- Continuous improvement based on participant feedback and performance metrics
+

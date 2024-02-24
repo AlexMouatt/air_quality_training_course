@@ -1,0 +1,50 @@
+---
+title: "Introduction to OpenAir"
+author: "Alex Mouatt"
+date: "2024-02-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 2. Introduction to OpenAir
+
+### Overview
+In this lesson, we'll introduce the OpenAir package in R, which is a powerful tool for analyzing air pollution data. OpenAir provides a wide range of functions for importing, processing, visualizing, and interpreting air quality data. By the end of this lesson, you'll have a solid understanding of how to get started with OpenAir and leverage its capabilities for your air quality analysis projects.
+
+### Learning Objectives
+- Understand the purpose and functionality of the OpenAir package
+- Learn how to install and load OpenAir in R
+- Explore key functions and features of OpenAir for air quality analysis
+
+### Topics Covered
+1. Introduction to OpenAir
+2. Installing and loading OpenAir
+3. Overview of key OpenAir functions
+4. Getting help and documentation
+
+### Resources
+- [OpenAir Documentation](https://davidcarslaw.github.io/openair/)
+- [OpenAir GitHub Repository](https://github.com/davidcarslaw/openair)
+
+### Pre-requisites
+- Basic knowledge of R programming
+- Familiarity with importing and manipulating data in R
+
+### Lecture Materials
+- [Download slides](#) (coming soon)
+- [Watch video lecture](#) (coming soon)
+
+### Supplementary Materials
+- [OpenAir Cheat Sheet](#) (PDF)
+- [Sample dataset: LondonAir](#) (CSV)
+
+### Exercise
+- Install OpenAir package in your R environment
+- Load the OpenAir library
+- Explore the functions `import*` for importing data and `timeVariation` for initial data exploration
+
+### Next Steps
+In the next lesson, we'll dive deeper into importing and preprocessing air quality data using OpenAir. Make sure to complete the exercise and familiarize yourself with the basics of OpenAir before moving on.

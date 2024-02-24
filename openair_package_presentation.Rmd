@@ -1,0 +1,74 @@
+---
+title: "openair package"
+author: "Alex Mouatt"
+output:
+  revealjs::revealjs_presentation:
+    theme: sky
+    highlight: pygments
+    centre: true
+---
+
+```{css, echo=F}
+h1.title {
+  font-size: 90px;
+  line-height: 90px;
+}
+
+h2.author {
+
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 90px;
+}
+
+h3.date {
+
+font-weight: normal;
+font-size: 40px;
+line-height:90px;
+}
+
+```
+
+Welcome to the tutorial on installing the OpenAir package in R!
+
+This presentation will teach you how to:
+
+1.  Install the openair package
+
+2.  Load the openair package
+
+3.  Find documentation
+
+
+------------------------------------------------------------------------
+
+#Installing OpenAir Package in R
+
+There are a couple of ways you can do this. 
+
+The most simple way is to run this code, to download the package from CRAN
+
+- install.packages("openair")
+
+If you want to ensure that you have the most recent version of this package and all the dependant packages, I would recommend to download the package from its Github repository (info on next slide). This would allow you to access the development version of the package, whihc may include bug fixes, new features, or improvements that haven't yet been released onto CRAN. 
+
+------------------------------------------------------------------------
+
+Before installing OpenAir through Github, make sure you have the devtools package installed:
+```{r, echo =T, eval=F}
+install.packages("devtools")
+```
+    
+Once this is installed, you can run the below code to install the openair package from Github
+```{r, echo =T, eval=F}
+devtools::install_github("davidcarslaw/openair")
+```
+
+Installing openair using the devtools package is helpful, because it automatically installs any dependancies required by the package you're installing - ensuring you have the latest version of all dependant packages as well. 
+
+------------------------------------------------------------------------
+ 
+    
+    
+
